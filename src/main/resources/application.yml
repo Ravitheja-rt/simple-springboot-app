@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: simple-springboot-app
+
+logging:
+  level:
+    root: INFO
+    org.springboot: DEBUG  # Adjust your package name here for debug logging
+
+# Optional: RestTemplate timeout settings if needed
+resttemplate:
+  connect-timeout: 5000
+  read-timeout: 10000
